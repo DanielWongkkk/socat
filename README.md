@@ -14,4 +14,4 @@ Socat公网ipv6转发内网ipv4
 
 > 原来的脚本是将本地ipv4端口映射到指定的远程服务器端口上，现改为将本地localhost的ipv4端口映射到到公网ipv6的端口上
 >
-> 参考文章：[(用SOCAT简单实现公网IPV6端口转发内网IPV4访问](https://blog.csdn.net/alal001/article/details/86365856)
+> 参考文章：[用SOCAT简单实现公网IPV6端口转发内网IPV4访问](https://blog.csdn.net/alal001/article/details/86365856)
