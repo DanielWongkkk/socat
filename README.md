@@ -1,4 +1,4 @@
-Socat一键安装脚本
+Socat公网ipv6转发内网ipv4
 -----------
 系统要求：支持CentOS 6+ 、Debian 7+、Ubuntu 14+
 
@@ -8,6 +8,10 @@ Socat一键安装脚本
 
     wget https://raw.githubusercontent.com/lzw981731/Socat/master/socat.sh && bash socat.sh
 
-按要求输入本地服务器端口，要转发的目标端口和服务器IP即可！
+按要求输入ipv6端口，要转发的ipv4端口即可！
 
-详细说明：http://www.vipkj.net/post-3270.htm
+默认转发localhost
+
+> 原来的脚本是将本地ipv4端口映射到指定的远程服务器端口上，现改为将本地localhost的ipv4端口映射到到公网ipv6的端口上
+>
+> 参考文章：[(用SOCAT简单实现公网IPV6端口转发内网IPV4访问](https://blog.csdn.net/alal001/article/details/86365856)
